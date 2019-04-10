@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Season mood</title>
+<link href="http://cdn.webfont.youziku.com/webfonts/nomal/118126/47565/5af854cef629d907e482c517.css" rel="stylesheet" type="text/css"> <!--引用字体-->
+<link href="http://cdn.webfont.youziku.com/webfonts/nomal/118126/19381/5af8585cf629d907e482c51f.css" rel="stylesheet" type="text/css" > <!--引用字体-->
+<link href="http://cdn.webfont.youziku.com/webfonts/nomal/118126/19381/5afa32ddf629d910dce29d4a.css" rel="stylesheet" type="text/css" /><!--引用字体-->
+<link href="css/glob.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="jquery-3.3.1.min.js" type="text/jscript"></script>
+</head>
+
+<body>
+	<ul class="daohang">
+		<li><a href="">Acknowledgements</a></li>
+     	<li><a href="">About us</a></li>
+		<li><a href="">Contact us</a></li>	
+		<li><a href="">Come and join us</a></li>
+	</ul>
+	<div class="biaoti">SEASON MOOD</div>
+	
+	<div class="zhongwen">倾听<br><br>自然的声音</div>
+	<div id="kaishi">Now start</div>
+	<div id="yincangliebiao">
+		
+	    <div id="chun"><a href="html/spring.html">春</a></div> 
+		<div id="xia"><a href="html/summer.html">夏</a></div>
+		<div id="qiu"><a href="html/fall.html">秋</a></div>
+		<div id="dong"><a href="html/winterhtml.html">冬</a></div>
+	</div>
+	
+    <div id="copyright">&copy;2018 journalism and communication  Weisong Mao</div>
+	
+	<script>
+	$(document).ready(function(){
+		$("#yincangliebiao").hide();
+		document.getElementById("kaishi").innerHTML;
+		$("#kaishi").click(function(){
+				document.getElementById("kaishi").innerHTML="Enjoy it!";
+				$("#yincangliebiao").slideDown(400); 
+		});
+		
+		
+	})
+	</script>
+</body>
+</html>

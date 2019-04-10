@@ -1,0 +1,63 @@
+body{
+	background:url(../pic/summer.jpg) no-repeat;
+	font-family: "Century-Gothic-B";
+	background-size: 100% auto;
+}
+.logo{
+	color: #FCFBFB;
+	font-family: "Philing";
+	font-size: 3em;
+	
+}
+.daohang{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	font-family: "Varela Round","Arial Black",serif;
+	font-size: 1.2em;
+    
+}
+.daohang>li{
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+	
+}
+a{
+	display: inline-block;
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	color:#FFFFFF;
+	margin-right: 10px;
+}
+
+
+.daohang a:link{color:#FFFFFF;}
+.daohang a:visited{color:#FFFFFF;}
+.daohang a:hover{background-color:rgba(99,98,98,0.2);transition: all 0.6s ease;}
+
+.yinyuebankuai{
+	text-align: center;
+	margin-top:50px;
+}
+.yinyuebankuai>div{
+	border: solid 4px #B5B5B5;
+	background:rgba(183,183,183,0.50);
+	border-radius: 20px;
+	height: 350px;
+	width: 19%;
+	margin: 20px;;
+	display: inline-block;
+}
+.testswitch{
+	margin-top:150px;
+	margin-left: 85px;
+	
+}
+.zi{
+	
+    font-family: "wjyjianxingshu1213c024701cd6e";
+	color: white;
+	font-size: 2em;
+	padding-top:100px;
+}

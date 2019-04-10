@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(pic/03.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	font-family: "Varela Round","Arial Black",serif;
+	margin:auto;
+}
+.daohang{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	font-family: "Varela Round","Arial Black",serif;
+	font-size: 1.2em;
+    
+}
+
+.daohang>li{
+	display: block;
+	float: right;
+	
+}
+
+.daohang a{
+	display: inline-block;
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	color:#FFFFFF;
+	margin-right: 20px;
+   
+	
+}
+.contactus{
+	position: relative;
+}
+.xialacaidan{
+	position: absolute;
+	padding:0px;
+	opacity:0.3;
+	height: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+	
+}
+
+
+.daohang a:link{color:#FFFFFF;}
+.daohang a:visited{color:#FFFFFF;}
+.daohang a:hover{
+	 background-color:rgba(99,98,98,0.2);
+	 
+}
+.xiala:link .xialacaidan {color: #FFFFFF;}
+.xiala:visited  .xialacaidan {color: #FFFFFF;}
+.xiala:hover .xialacaidan{
+	opacity: 1;
+	height:100px;
+	
+}
+
+
+.headline{
+	font-family: "Varela Round","Arial Black",serif;
+	padding-top: 150px;
+	font-size:2.5em;
+	color: #FFFFFF;
+    text-align: center;
+}
+
+.brief{
+	text-align: center;
+	font-size: 1.3em;
+	color: #FFFFFF;
+}
+
+.social{
+	    list-style: none;
+	    padding: 0;
+	    margin:0;
+	    text-align: center;
+}
+
+.social li{
+	display: inline-block;
+	
+	
+}
+
+.social a{
+	display: inline-block;
+	padding: 5px 15px 5px 15px;
+	margin-top: 80px;
+	
+	
+}
